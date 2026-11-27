@@ -11,10 +11,12 @@ botaoNao.addEventListener("mouseover", function() {
 
 const botaoSim = document.getElementById("sim")
 
-botaoSim.addEventListener("click", function(){
-    mensagem.innerHTML
+if (botaoSim) {
+    botaoSim.addEventListener("click", function() {
+        window.location.href = "final.html";
+    });
+}
 
-});
 
 
 

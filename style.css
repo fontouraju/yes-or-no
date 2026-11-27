@@ -26,3 +26,41 @@ button{
 #nao {
     position: relative;
 }
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body.pagina-final {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    overflow: hidden;
+
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.863), rgba(255, 192, 203, 0.527)),
+    url("noss.JPEG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    color: pink;
+}
+.comemoracao {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.comemoracao h1 {
+    margin-top: 0;
+    color: white;
+}
